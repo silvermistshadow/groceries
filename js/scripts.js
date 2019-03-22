@@ -17,9 +17,16 @@ $(document).ready(function(){
     });
 
     $("#listOut").show();
+    $("#formBox").hide();
+
+
 
   });
 
+  $("#clearList").click(function(){
+    $("#formBox").show();
+    $("#listOut").hide();
 
+  });
 
 });
