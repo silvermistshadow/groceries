@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
-    $("#listOut").empty();
+    $("#outputList").empty();
     $("#listOut").prepend("<ul id='outputList'> </ul>")
     var inputItems = $("input#itemList").val();
     var items = inputItems.split(" ");
